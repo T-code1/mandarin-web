@@ -7,12 +7,11 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText
+  // Container, 
+  Row, 
+  Col 
 } from 'reactstrap';
+import {Link} from "react-scroll";
 
 const Example = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,38 +20,78 @@ const Example = (props) => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
+     {/* <Container> */}
+     <Row>
+       <Col xs="9">
+    <NavbarBrand href="/">MANDARIN</NavbarBrand>
+       </Col>
+       <Col >
+       <Navbar color="light" light expand="md">
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">Components</NavLink>
+              <NavLink >
+              <Link
+                activeClass="active"
+                to="section1"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Home
+              </Link>
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+              <NavLink>
+              <Link
+                activeClass="active"
+                to="section2"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Services
+              </Link>
+              </NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Options
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                  Option 1
-                </DropdownItem>
-                <DropdownItem>
-                  Option 2
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+            <NavItem>
+              <NavLink >
+              <Link
+                activeClass="active"
+                to="section3"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+               About
+              </Link>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink >
+              <Link
+                activeClass="active"
+                to="section4"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+               Contact
+              </Link>
+              </NavLink>
+            </NavItem>
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
         </Collapse>
       </Navbar>
+       </Col>
+     </Row>
+     {/* </Container> */}
     </div>
   );
 }

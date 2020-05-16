@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{Fragment} from 'react';
 import Navigation from "./navigation";
 import Home from "./home";
 import Services from "./services";
@@ -7,13 +7,13 @@ import Contact from "./contact";
 
 const LandingPage = ()=>{
 return(
-  <div>
+  <Fragment>
   <Navigation/>
-  <Home/>
-  <Services/>
-  <About/>
-  <Contact/>
-  </div>
+  <Home id="section1" />
+  <Services id="section2" />
+  <About id="section3" />
+  <Contact id="section4" />
+  </Fragment>
 )
 }
 

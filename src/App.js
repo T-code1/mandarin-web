@@ -1,7 +1,14 @@
 import React from 'react';
+import Explore from "./components/explore";
+import LandingPage from "./components/landingpage";
 import './App.css';
 const App = ()=>{
-  return <h1>WELCOME TO MANDARINE WEB</h1>
+return(
+  <div>
+  <LandingPage/>
+  <Explore/>
+  </div>
+)
 }
 
 export default App;

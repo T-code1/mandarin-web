@@ -6,8 +6,8 @@ import Services from './components/services';
 const App = () => {
   return (
     <div>
-      <Services />
-      {/* <Explore /> */}
+      <LandingPage />
+      <Explore />
     </div>
   )
 }

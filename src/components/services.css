@@ -1,4 +1,31 @@
-.services{
-    color:green;
-    height: 100vh;
- }
+.services {
+  height: 100vh;
+  background-image: url("../images/02.png");
+  background-size: cover;
+}
+
+.image {
+  height: 80%;
+  width: 100%;
+}
+
+h3 {
+  color: #f89c1e;
+}
+
+p {
+  color: #ffff;
+  font-size: medium;
+}
+
+#pexplore {
+  color: #f89c1e;
+}
+
+.title {
+  padding: 10%;
+}
+
+.content {
+  padding-top: 8%;
+}

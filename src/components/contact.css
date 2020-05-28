@@ -1,72 +1,48 @@
-.contactUs{
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-}
-.contactform{
-    height: 90vh;
-    width: 30%;
-    margin-left: 7%;
- }
-
- input[type=text] {
-     background-color: black;
-    border-width: 0px;
-    border-bottom: 1px solid #707070;
-  }
-
-  input[type=password] {
-    background-color: black;
-   border-width: 0px;
-   border-bottom: 1px solid #707070;
- }
-
- input[type=email] {
-    background-color: black;
-   border-width: 0px;
-   border-bottom: 1px solid #707070;
- }
-
- input[type=textarea] {
-    background-color: black;
-   border-width: 0px;
-   border-bottom: 1px solid #707070;
- }
-
- .tell{
-    font-family: intro; 
-    color:white;
-    text-align: left;
- }
-
- .youare{
-    font-family: intro;
-    color:white;
-    text-align: left;
-    padding-bottom: 7%;
- }
-
-
- .footer{
-     justify-content: center;
-     display: flex;
-     background-color:  #242b30;
-     color:  #e7ecf0;
-     flex-direction: row;
-     
- }
-
- .aboutus{
-    width: 20%;
-    font-family: intro;
- }
-
- .maboutus{
-     padding-left: 3%;
- }
-
-
- .searchbar-input-wrap{
-    border-radius: 12px;
+.contact {
+  height: 100vh;
+  background-image: url("../images/04.png");
+  background-size: cover;
 }
 
+h2 {
+  color: #fff;
+  margin: 1em;
+  padding: 4%;
+}
+
+.button {
+  background-color: #f89c1e;
+  border: 0px solid #f89c1e;
+  border-radius: 25px 25px;
+  color: #fff;
+  font-weight: bold;
+  padding: 12px 30px;
+  text-align: center;
+  margin-top: 2em;
+  cursor: pointer;
+  width: 40%;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 0.3px solid #555555;
+  background: transparent;
+  color: #959595;
+  font-size: small;
+  width: 40%;
+  padding: 30px 0px 30px;
+}
+
+input[type="email"] {
+  border: none;
+  border-bottom: 0.3px solid #555555;
+  background: transparent;
+  color: #959595;
+  font-size: small;
+  width: 40%;
+  padding: 30px 0px 30px;
+}
+form {
+  margin: 1em;
+  padding: 4%;
+}

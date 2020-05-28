@@ -8,17 +8,17 @@ const Services = props => {
 
       <div className="row content">
 
-        <div className="col-sm image">
+        <div className="col-sm-6 image">
           <img className="image" src={require("../images/MacBook Pro 16.png")} alt="MacBook Pro 16" />
         </div>
 
-        <div className="col-sm title">
+        <div className="col-sm-6 title">
           <h3>Services</h3>
-          <p>"Simplicity is not the goal, it is by-product<br />
+          <p>" Simplicity is not the goal, it is by-product<br />
             of a good idea and modest expectations."<br />
             -Paul Rand
             </p>
-          <a href="www.divine" id="pexplore">Explore ></a>
+          <a href="www.divine" id="pexplore">Explore <span>></span> </a>
         </div>
 
       </div>

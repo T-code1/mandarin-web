@@ -1,4 +1,21 @@
-.about{
-    color:yellow;
-    height: 100vh;
- }
+.about {
+  height: 100vh;
+  background-image: url("../images/03.png");
+  background-size: cover;
+}
+
+h4 {
+  color: #004b87;
+  font-weight: 600;
+}
+span {
+  font-size: smaller;
+}
+.paragraph p {
+  color: #636363;
+  font-size: small;
+}
+.link a {
+  color: #004b87;
+  font-size: small;
+}

@@ -1,0 +1,54 @@
+<<<<<<< HEAD
+=======
+.contact {
+  height: 100vh;
+  background-image: url("../images/04.png");
+  background-size: cover;
+}
+
+h2 {
+  color: #fff;
+  margin: 1em;
+  padding: 4%;
+}
+
+.button {
+  background-color: #f89c1e;
+  border: 0px solid #f89c1e;
+  border-radius: 25px 25px;
+  color: #fff;
+  font-weight: bold;
+  padding: 12px 30px;
+  text-align: center;
+  margin-top: 2em;
+  cursor: pointer;
+  width: 40%;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 0.3px solid #555555;
+  background: transparent;
+  color: #959595;
+  font-size: small;
+  width: 40%;
+  padding: 30px 0px 30px;
+  outline: none;
+}
+
+input[type="email"] {
+  border: none;
+  border-bottom: 0.3px solid #555555;
+  background: transparent;
+  color: #959595;
+  font-size: small;
+  width: 40%;
+  padding: 30px 0px 30px;
+  outline: none;
+}
+
+form {
+  margin: 1em;
+  padding: 4%;
+}
+>>>>>>> cb2ab913f770133d54c6efd8b3291cc295b59f61

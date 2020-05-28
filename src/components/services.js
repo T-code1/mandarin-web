@@ -12,7 +12,7 @@ const Services = props => {
           <img className="image" src={require("../images/MacBook Pro 16.png")} alt="MacBook Pro 16" />
         </div>
 
-        <div className="col-sm-6 title">
+        <div className=" title">
           <h3>Services</h3>
           <p>" Simplicity is not the goal, it is by-product<br />
             of a good idea and modest expectations."<br />

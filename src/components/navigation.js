@@ -8,10 +8,11 @@ import {
   NavItem,
   NavLink,
   // Container, 
-  Row, 
-  Col 
+  Row,
+  Col
 } from 'reactstrap';
-import {Link} from "react-scroll";
+import { Link } from "react-scroll";
+
 
 const Example = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,78 +21,78 @@ const Example = (props) => {
 
   return (
     <div>
-     {/* <Container> */}
-     <Row>
-       <Col xs="9">
-    <NavbarBrand href="/">MANDARIN</NavbarBrand>
-       </Col>
-       <Col >
-       <Navbar color="light" light expand="md">
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink >
-              <Link
-                activeClass="active"
-                to="section1"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                Home
+      {/* <Container> */}
+      <Row>
+        <Col xs="9">
+          <NavbarBrand href="/"><img className="logo" src={require("../images/Official_Logo.png")} alt="pexels" /></NavbarBrand>
+        </Col>
+        <Col >
+          <Navbar color="light" light expand="md">
+            <NavbarToggler onClick={toggle} />
+            <Collapse isOpen={isOpen} navbar>
+              <Nav className="mr-auto" navbar>
+                <NavItem>
+                  <NavLink >
+                    <Link
+                      activeClass="active"
+                      to="section1"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      Home
               </Link>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink>
-              <Link
-                activeClass="active"
-                to="section2"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                Services
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink>
+                    <Link
+                      activeClass="active"
+                      to="section2"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      Services
               </Link>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink >
-              <Link
-                activeClass="active"
-                to="section3"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-               About
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink >
+                    <Link
+                      activeClass="active"
+                      to="section3"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      About
               </Link>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink >
-              <Link
-                activeClass="active"
-                to="section4"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-               Contact
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink >
+                    <Link
+                      activeClass="active"
+                      to="section4"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      Contact
               </Link>
-              </NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
-      </Navbar>
-       </Col>
-     </Row>
-     {/* </Container> */}
+                  </NavLink>
+                </NavItem>
+              </Nav>
+            </Collapse>
+          </Navbar>
+        </Col>
+      </Row>
+      {/* </Container> */}
     </div>
   );
 }

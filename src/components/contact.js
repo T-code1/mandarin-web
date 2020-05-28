@@ -1,5 +1,8 @@
 import React from 'react';
 import "./contact.css";
+import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
+
+
 const Contact = props => {
   const { id } = props
   return (
@@ -15,7 +18,6 @@ const Contact = props => {
         <input type="text" id="message" name="Message" placeholder="message" /><br />
         <button className="button">SEND</button>
       </form>
-
     </div>
   )
 

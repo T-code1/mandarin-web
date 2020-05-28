@@ -14,7 +14,7 @@ const Contact = props => {
        you are interested in
        </h2>
 
-      <form action="/action_page.php">
+      <form action="/email">
         <input type="text" id="name" name="Name" placeholder="Name" /><br />
         <input type="email" id="email" name="Email" placeholder="Email" /><br />
         <input type="text" id="message" name="Message" placeholder="message" /><br />

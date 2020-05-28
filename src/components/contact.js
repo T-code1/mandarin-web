@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 import React from 'react';
 import "./contact.css";
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
@@ -24,3 +26,4 @@ const Contact = props => {
 }
 
 export default Contact;
+>>>>>>> cb2ab913f770133d54c6efd8b3291cc295b59f61

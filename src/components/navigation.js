@@ -41,6 +41,7 @@ const Example = (props) => {
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
               <Nav className="mr-auto" navbar>
+              
                 <NavItem>
                   <NavLink style={{color:"orange"}}>
                     <Link
@@ -55,6 +56,7 @@ const Example = (props) => {
               </Link>
                   </NavLink>
                 </NavItem>
+
                 <NavItem>
                   <NavLink>
                     <Link
@@ -69,8 +71,9 @@ const Example = (props) => {
               </Link>
                   </NavLink>
                 </NavItem>
+
                 <NavItem>
-                  <NavLink >
+                  <NavLink>
                     <Link
                       activeClass="active"
                       to="section3"
@@ -79,10 +82,26 @@ const Example = (props) => {
                       offset={-70}
                       duration={500}
                     >
-                    Who we are
+                    About
               </Link>
                   </NavLink>
                 </NavItem>
+
+                <NavItem>
+                  <NavLink >
+                    <Link
+                      activeClass="active"
+                      to="section5"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      Clients
+              </Link>
+                  </NavLink>
+                </NavItem>
+
                 <NavItem>
                   <NavLink >
                     <Link
@@ -97,6 +116,7 @@ const Example = (props) => {
               </Link>
                   </NavLink>
                 </NavItem>
+
               </Nav>
             </Collapse>
           </Navbar>

@@ -1,4 +1,5 @@
 import React from 'react';
+import  { Link } from 'react-router-dom';
 import "./services.css"
 const Services = props => {
   const { id } = props
@@ -18,7 +19,7 @@ const Services = props => {
             of a good idea and modest expectations."<br />
             -Paul Rand
             </p>
-          <a href="www.divine" id="pexplore">Explore <span>></span> </a>
+          <Link to="/explore" id="pexplore">Explore <span>></span></Link>
         </div>
 
       </div>

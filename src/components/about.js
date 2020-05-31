@@ -1,4 +1,5 @@
 import React from 'react';
+import  { Link } from 'react-router-dom';
 import "./about.css"
 const About = props => {
   const { id } = props
@@ -33,7 +34,7 @@ const About = props => {
           </div>
 
           <div className="link">
-            <a href="www.divine">Explore <span>></span></a>
+          <Link to="/explore" >Explore <span>></span></Link>
           </div>
 
         </div>

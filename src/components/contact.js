@@ -6,7 +6,6 @@ const Contact = props => {
   const { id } = props
   return (
     <div className="container-fluid contact" id={id}>
-
       <h2>Tell us what <br />
        you are interested in
        </h2>

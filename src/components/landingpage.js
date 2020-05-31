@@ -2,6 +2,7 @@ import React,{Fragment} from 'react';
 import Navigation from "./navigation";
 import Home from "./home";
 import Services from "./services";
+import Client from './client';
 import About from "./about";
 import Contact from "./contact";
 
@@ -12,7 +13,8 @@ return(
   <Home id="section1" />
   <Services id="section2" />
   <About id="section3" />
-  <Contact id="section4" />
+  <Client id="section4"/>
+  <Contact id="section5" />
   </Fragment>
 )
 }

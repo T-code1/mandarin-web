@@ -18,21 +18,32 @@ const Example = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
-
+ const logostyle={
+   fontSize:25,
+   marginLeft:"10%"
+ }
+ const navStyles={
+   fontSize:11,
+   padding:2, 
+   marginTop:"3%",
+   marginRight:"10%",
+   cusor:"pointer"
+  }
   return (
     <div>
       {/* <Container> */}
       <Row>
         <Col xs="9">
-          <NavbarBrand href="/"><img className="logo" src={require("../images/Official_Logo.png")} alt="pexels" /></NavbarBrand>
+          <NavbarBrand style={logostyle}href="/"><img className="logo" src={require("../images/Official_Logo.png")} alt="pexels" /></NavbarBrand>
         </Col>
         <Col >
-          <Navbar color="light" light expand="md">
+          <Navbar light style={navStyles}  expand="md" >
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
               <Nav className="mr-auto" navbar>
+              
                 <NavItem>
-                  <NavLink >
+                  <NavLink style={{color:"orange"}}>
                     <Link
                       activeClass="active"
                       to="section1"
@@ -45,6 +56,7 @@ const Example = (props) => {
               </Link>
                   </NavLink>
                 </NavItem>
+
                 <NavItem>
                   <NavLink>
                     <Link
@@ -59,8 +71,9 @@ const Example = (props) => {
               </Link>
                   </NavLink>
                 </NavItem>
+
                 <NavItem>
-                  <NavLink >
+                  <NavLink>
                     <Link
                       activeClass="active"
                       to="section3"
@@ -69,10 +82,26 @@ const Example = (props) => {
                       offset={-70}
                       duration={500}
                     >
-                      About
+                    About
               </Link>
                   </NavLink>
                 </NavItem>
+
+                <NavItem>
+                  <NavLink >
+                    <Link
+                      activeClass="active"
+                      to="section5"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                    >
+                      Clients
+              </Link>
+                  </NavLink>
+                </NavItem>
+
                 <NavItem>
                   <NavLink >
                     <Link
@@ -87,12 +116,12 @@ const Example = (props) => {
               </Link>
                   </NavLink>
                 </NavItem>
+
               </Nav>
             </Collapse>
           </Navbar>
         </Col>
       </Row>
-      {/* </Container> */}
     </div>
   );
 }

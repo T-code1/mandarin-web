@@ -39,7 +39,6 @@ const About = props => {
 
           <div data-aos="fade-up" className="link">
             <a href="www.divine">Explore <span>></span></a>
-          </div>
 
         </div>
 

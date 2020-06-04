@@ -8,6 +8,7 @@ h2 {
   color: #fff;
   margin: 1em;
   padding: 4%;
+  font-family: "chaletBook-regular";
 }
 
 .button {
@@ -16,7 +17,7 @@ h2 {
   border: none;
   padding: 12px 30px;
   background-color: #f89c1e;
-  font-weight: bold;
+  font-family: "chaletBook-bold";
   color: #fff;
   margin: 1.5em;
   cursor: pointer;
@@ -53,4 +54,5 @@ input[type="email"] {
 
 form {
   margin: 1em;
+  font-family: "chaletBook-regular";
 }

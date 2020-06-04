@@ -1,17 +1,21 @@
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./contact.css";
-
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 const Contact = props => {
   const { id } = props
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, [])
   return (
     <div className="container-fluid contact" id={id}>
 
-      <h2>Tell us what <br />
-       you are interested in
+      <h2 data-aos="fade-down">Tell us what <br />
+       you are interested in.
        </h2>
 
-      <form action="/email">
+      <form data-aos="fade-up" action="/email">
         <input type="text" id="name" name="Name" placeholder="Name" /><br />
         <input type="email" id="email" name="Email" placeholder="Email" /><br />
         <input type="text" id="message" name="Message" placeholder="message" /><br />

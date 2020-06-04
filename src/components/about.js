@@ -1,7 +1,12 @@
-import React from 'react';
-import "./about.css"
+import React, { useEffect } from 'react';
+import "./about.css";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 const About = props => {
   const { id } = props
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, [])
   return (
     // <div className="container-fluid">
     <div className="container-fluid about" id={id}>
@@ -12,9 +17,9 @@ const About = props => {
 
         <div className="col-sm-6 title">
 
-          <h4>WHO WE ARE</h4>
+          <h4 data-aos="fade-down">WHO WE ARE</h4>
 
-          <div className="paragraph">
+          <div data-aos="fade-up" className="paragraph">
 
             <p>Traditionally in Feng Shuai, the Mandarin duck
               symbolizes love and passion, which is <br />
@@ -32,7 +37,7 @@ const About = props => {
 
           </div>
 
-          <div className="link">
+          <div data-aos="fade-up" className="link">
             <a href="www.divine">Explore <span>></span></a>
           </div>
 

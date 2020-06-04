@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import "./services.css"
+import { Link } from 'react-router-dom';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 const Services = props => {
@@ -18,7 +19,7 @@ const Services = props => {
         </div>
 
         <div data-aos="fade-left" className=" title">
-          <h3>Services</h3>
+          <p id="head">SERVICES</p>
           <p>" Simplicity is not the goal, it is by-product<br />
             of a good idea and modest expectations."<br />
             -Paul Rand

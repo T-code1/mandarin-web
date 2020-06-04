@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import "./about.css";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 const About = props => {
   const { id } = props
   useEffect(() => {
@@ -17,7 +18,7 @@ const About = props => {
 
         <div className="col-sm-6 title">
 
-          <h4 data-aos="fade-down">WHO WE ARE</h4>
+          <p id="heading" data-aos="fade-down">WHO WE ARE</p>
 
           <div data-aos="fade-up" className="paragraph">
 
@@ -38,7 +39,8 @@ const About = props => {
           </div>
 
           <div data-aos="fade-up" className="link">
-            <a href="www.divine">Explore <span>></span></a>
+            <Link to="/explore" id="link">Explore <span>></span></Link>
+          </div>
 
         </div>
 

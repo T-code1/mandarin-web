@@ -1,6 +1,7 @@
 @font-face {
   font-family: "chaletBook-regular";
   src: url("../fonts/ChaletBook.ttf");
+  font-style: normal;
 }
 
 @font-face {
@@ -19,10 +20,10 @@
   width: 100%;
 }
 
-h3 {
+#head {
   color: #f89c1e;
   font-family: "chaletBook-regular";
-  font-size: 50px;
+  font-size: 40px;
 }
 
 p {

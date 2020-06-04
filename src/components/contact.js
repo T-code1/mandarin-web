@@ -11,9 +11,9 @@ const Contact = props => {
   return (
     <div className="container-fluid contact" id={id}>
 
-      <h2 data-aos="fade-down">Tell us what <br />
+      <p id="h-contact" data-aos="fade-down">Tell us what <br />
        you are interested in.
-       </h2>
+       </p>
 
       <form data-aos="fade-up" action="/email">
         <input type="text" id="name" name="Name" placeholder="Name" /><br />

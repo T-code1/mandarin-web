@@ -4,9 +4,10 @@
   background-size: cover;
 }
 
-h2 {
+#h-contact {
   color: #fff;
   padding: 4%;
+  font-size: 40px;
   font-family: "chaletBook-regular";
 }
 

@@ -1,8 +1,10 @@
 import React from 'react';
- 
+import Navigation from './navigation';
 const Explore =()=> {
+  return (
+    <Navigation/>
+  )
 
-  return <h1>This is Expolore </h1>;
 }
  
 export default Explore;

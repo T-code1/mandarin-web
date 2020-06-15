@@ -7,7 +7,6 @@ import {
   Nav,
   NavItem,
   NavLink,
-  // Container, 
   Row,
   Col
 } from 'reactstrap';
@@ -18,31 +17,34 @@ const Example = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
- const logostyle={
-   fontSize:25,
-   marginLeft:"10%"
- }
+
+   const logStyles ={
+     height: 45,
+     width: 150
+   }
+
  const navStyles={
-   fontSize:11,
+   position: "fixed",
+   fontSize: 16,
+   fontWeight:8,
    padding:2, 
    marginTop:"3%",
    marginRight:"10%",
-   cusor:"pointer"
+   cursor: "pointer"
   }
   return (
     <div>
-      {/* <Container> */}
       <Row>
         <Col xs="9">
-          <NavbarBrand style={logostyle}href="/"><img className="logo" src={require("../images/Official_Logo.png")} alt="pexels" /></NavbarBrand>
+          <NavbarBrand href="/"><img style={logStyles} className="logo" src={require("../images/Official_Logo.png")} alt="pixels" /></NavbarBrand>
         </Col>
         <Col >
-          <Navbar light style={navStyles}  expand="md" >
+          <Navbar light  expand="md" >
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
-              <Nav className="mr-auto" navbar>
+              <Nav className="mr-auto" navbar style={navStyles}>
               
-                <NavItem>
+                <NavItem >
                   <NavLink style={{color:"orange"}}>
                     <Link
                       activeClass="active"
@@ -91,7 +93,7 @@ const Example = (props) => {
                   <NavLink >
                     <Link
                       activeClass="active"
-                      to="section5"
+                      to="section4"
                       spy={true}
                       smooth={true}
                       offset={-70}
@@ -106,7 +108,7 @@ const Example = (props) => {
                   <NavLink >
                     <Link
                       activeClass="active"
-                      to="section4"
+                      to="section5"
                       spy={true}
                       smooth={true}
                       offset={-70}

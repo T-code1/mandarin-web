@@ -1,26 +1,30 @@
-.home{
-   color: gray;
-   height: 100vh;
-   
-}
+.home {
+background-color: white;
+font-weight: bold;
+height:100vh;
+text-align: center;
 
-.hometext {
-   font-size: 70px;
-   text-align: start;
-   margin-top: 10%;
-   margin-left: 16%;
-   margin-right: 20%;
+}
+p span{
+   font-size:100px;
    font-weight: bold;
-   font-family: intro;
+   color:orange;
+ 
 }
 
-.we {
-   color: orange;
+.home_text{
+   
+margin-top: 10%;
+}
+.home p{
+   font-size: 100px;
+   color:darkgray;
+
 }
 
 .logo {
-   margin-left: 30px;
-   margin-top: 30px;
-   width: 80px;
-   height: 40px;
+	margin-left: 30px;
+	margin-top: 30px;
+	width: 80px;
+	height: 40px;
 }

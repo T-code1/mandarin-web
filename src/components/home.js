@@ -3,15 +3,15 @@ import "./home.css";
 
 
 const Home = () => {
-
-  return (<div>
-    <div className='home' >
-      <p style={{color:"gray"}} className='hometext'> <div><strong className='we'>We</strong> are here</div>
-      <p style={{color:"gray",fontSize:70}}> to <strong className='we'>serve</strong> you and</p>
-     <p style={{color:"gray",fontSize:70}}>bring <strong className='we'>you</strong>r ideas to life<strong className='we'>.</strong>
-      </p></p>
+  return(
+    <div className="home">
+    <div className="home_text">
+    <p><span>We</span> are here</p>
+    <p>to <span>Serve</span> you and </p>
+     <p> bring <span>you</span>r ideas to life .</p>
     </div>
-  </div>);
+    </div>
+  )
 }
 
 export default Home;

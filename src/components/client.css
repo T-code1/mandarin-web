@@ -1,0 +1,28 @@
+div#section4{
+    background-color: lightgrey;
+}
+h1{
+    color: grey
+}
+
+.client_link {
+    background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img.chickentStore-img,
+img.forex-img,
+img.gemura-img,
+img.huzamart-img,
+img.Isange-img,
+img.Kwetu-img,
+img.osisolution-img,
+img.solid-img,
+img.wivunika-img{
+    height: 40vh;
+    width: 32%;
+    margin: 10px;
+    margin:30px 11px;
+} 

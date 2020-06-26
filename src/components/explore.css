@@ -1,0 +1,20 @@
+.toServe{
+    color:rgb(73, 73, 150);
+    font-size: 30px;
+}
+.texts{
+   margin-left: 20%;
+    margin-top: 100px;
+    margin-bottom: 4%;
+}
+
+.text{
+    color:gray;
+   margin-bottom:0;
+   font-size: 15px;
+}
+
+.explores{
+    background-color: lightgray;
+    height: 50vh;
+}

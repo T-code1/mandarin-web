@@ -46,6 +46,9 @@ const Footer = () => {
 
             <p> &copy; 2020 Copyright , All rights reserved.</p>
          </div>
+        </div>
+       </div>
+      
       </React.Fragment>
    )
 }

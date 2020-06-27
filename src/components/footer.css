@@ -66,6 +66,14 @@ img.fb-img,
 img.ig-img {
   height: 20px;
   margin: 2px;
+  height: 30px;
+  margin-right: 250px;
+}
+
+img.fb-img,
+img.ig-img {
+  height: 30px;
+  margin-right: 20px;
 }
 
 .copy {

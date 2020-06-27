@@ -1,67 +1,71 @@
-.footer{
-    display: flex;
-    justify-content: space-between;
-     background-color: rgb(17, 15, 15);
-     padding-top: 25px;
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #242b30;
+  padding-top: 25px;
 }
-h6{
-    color:lightgray;
-   font-weight: bold;
+h6 {
+  padding-bottom: 8%;
+  color: lightgray;
+  font-weight: bold;
 }
 
-
-
-#text1{
-    margin-bottom: inherit;
-    color: rgb(156, 155, 155);
-    font-size: 12px;
+#text1 {
+  margin-bottom: inherit;
+  color: #959595;
+  font-size: 12px;
 }
 p#text4 {
-    color: rgb(156, 155, 155);
-    font-size: 13px;
-    margin: 2px;
+  color: #959595;
+  font-size: 13px;
+  margin: 2px;
 }
-.column1{
-    margin-left: 50px;
+.column1 {
+  margin-left: 50px;
 }
-.column4{
-    width:20%;
-    margin-right: 40px;
+.column4 {
+  width: 20%;
+  margin-right: 40px;
 }
-
 
 input#emailInput {
-    margin: 0;
-    background-color: white;
-    border-radius:12px 0px 0px 12px ;
-    width:70%;
-    text-align: center;
-    padding: 4px;
-    font-family: cursive;
-    font-size: 14px;
-
+  margin: 0;
+  background-color: white;
+  border-radius: 12px 0px 0px 12px;
+  width: 70%;
+  text-align: center;
+  padding: 4px;
+  font-family: cursive;
+  font-size: 14px;
 }
 button#button {
-    border-radius:0px 12px 12px 0px ;
-    background: darkblue;
-    border: darkblue;
-    width: 30%;
-    padding: 4px;
-    color: white;
-    font-size: 14px;
-
+  border-radius: 0px 12px 12px 0px;
+  background: #004b87;
+  border: #004b87;
+  width: 30%;
+  padding: 3.8px;
+  padding-top: 7px;
+  color: white;
+  font-size: 12px;
 }
 
-.socialMedia{
-    display: flex;
-   flex-direction: row;
-   justify-content: flex-end;
-    background-color: rgb(17, 15, 15);
-    padding-bottom: 20px;
-
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #242b30;
+  padding-bottom: 20px;
 }
 
 img.tt-img {
+  height: 20px;
+  margin-right: 250px;
+}
+
+img.fb-img,
+img.ig-img {
+  height: 20px;
+  margin: 2px;
     height: 30px;
     margin-right: 250px;
    
@@ -73,13 +77,20 @@ img.fb-img,img.ig-img{
 }
 
 .copy {
-    background: rgb(17, 15, 15);
-    text-align: center;
-    border-top: 3px solid gray;
-    padding-bottom: 2px;
+  background: #242b30;
+  text-align: center;
+  padding-bottom: 2px;
 }
-
-.copy p{
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid black;
+  margin: 1em 0;
+  padding: 0;
+}
+.copy p {
+  padding-top: 10px;
   color: rgb(156, 155, 155);
   font-size: 13px;
 }

@@ -36,9 +36,9 @@ const Footer = () => {
             </div>
          </div>
          <div className='socialMedia'>
-            <img className="fb-img" src={require("../images/fblog.png")} alt="fb" />
-            <img className="ig-img" src={require("../images/instagramlogo.png")} alt="fb" />
-            <img className="tt-img" src={require("../images/twitterlogl.png")} alt="fb" />
+            <img className="fb-img" src={require("../images/Socials-icons/facebook-logo.svg")} alt="fb" />
+            <img className="ig-img" src={require("../images/Socials-icons/instagram-logo.svg")} alt="fb" />
+            <img className="tt-img" src={require("../images/Socials-icons/twitter.svg")} alt="fb" />
             <hr />
          </div>
 

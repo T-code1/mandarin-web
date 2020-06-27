@@ -23,7 +23,7 @@ const Footer = () => {
                <h6>Contact</h6>
                <p id="text1">+(250)784658958</p>
                <p id="text1">info@madarinagency digital</p>
-               <p id="text1">Kigali,Rwanda</p>
+               <p id="text1">Kigali Rwanda</p>
             </div>
 
             <div className="column4 ">
@@ -36,13 +36,17 @@ const Footer = () => {
             </div>
          </div>
          <div className='socialMedia'>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
             <img className="fb-img" src={require("../images/Socials-icons/facebook-logo.svg")} alt="fb" />
             <img className="ig-img" src={require("../images/Socials-icons/instagram-logo.svg")} alt="fb" />
             <img className="tt-img" src={require("../images/Socials-icons/twitter.svg")} alt="fb" />
-            <hr />
+
          </div>
 
          <div className="copy">
+            <div className="line">
+
+            </div>
 
             <p> &copy; 2020 Copyright , All rights reserved.</p>
          </div>

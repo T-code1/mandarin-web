@@ -51,16 +51,7 @@ const Footer =()=>{
             <p> &copy; 2020 Copyright , All rights reserved.</p>
 
          </div>
-        </div>
-       </div>
-       <div className='socialMedia'>
-       <img className="fb-img" src={require("../images/Socials-icons/facebook-logo.svg")} alt="fb" />
-       <img className="ig-img" src={require("../images/Socials-icons/instagram-logo.svg")} alt="fb" />
-       <img className="tt-img" src={require("../images/Socials-icons/twitter.svg")} alt="fb" />
-       </div>
-        <div className="copy">
-        <p> &2020 Copyright,All rights reserved.</p>
-        </div>
+
       </React.Fragment>
    )
 }

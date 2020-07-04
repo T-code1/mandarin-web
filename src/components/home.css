@@ -1,25 +1,21 @@
 .home {
-background-color: white;
-font-weight: bold;
-text-align: center;
-height: 70vh;
-
+	background-color: white;
+	font-weight: bold;
+	text-align: center;
+	/* height: 70vh; */
 }
-p span{
-   font-size:100px;
-   font-weight: bold;
-   color:orange;
- 
+p span {
+	font-size: 100px;
+	font-weight: bold;
+	color: orange;
 }
 
-.home_text{
-   
-margin-top: 10%;
+.home_text {
+	margin: 50px;
 }
-.home p{
-   font-size: 100px;
-   color:darkgray;
-
+.home p {
+	font-size: 100px;
+	color: darkgray;
 }
 
 .logo {

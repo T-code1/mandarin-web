@@ -10,8 +10,8 @@ import Contact from "./contact";
 const LandingPage = ()=>{
 return(
   <Fragment>
-  <Navigation/>
-  <Home id="section1" />
+  <Navigation id="section1" />
+  <Home />
   <Services id="section2" />
   <About id="section3" />
   <Client id="section4"/>
@@ -21,3 +21,4 @@ return(
 }
 
 export default LandingPage;
+ 

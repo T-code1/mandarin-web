@@ -28,20 +28,24 @@ p#text4 {
   width: 20%;
   margin-right: 40px;
 }
+.email_input {
+  display: flex;
+}
 
 input#emailInput {
   margin: 0;
   background-color: white;
   border-radius: 12px 0px 0px 12px;
   width: 70%;
+  height:29px;
   text-align: center;
   padding: 5.4px;
   font-family: cursive;
   font-size: 12px;
 }
-button#button {
+p#button {
   border-radius: 0px 12px 12px 0px;
-  background: #004b87;
+  background-color: #004b87;
   border: #004b87;
   width: 30%;
   padding: 3.6px;
@@ -60,8 +64,8 @@ button#button {
 }
 
 img.tt-img {
-  height: 20px;
-  margin-right: 250px;
+  height: 33px;
+  margin-right: 160px;
   color: #959595;
 }
 

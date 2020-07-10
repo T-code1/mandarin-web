@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./navigation.css"
 import {
   Collapse,
   Navbar,
@@ -12,30 +13,33 @@ import {
 } from 'reactstrap';
 import { Link } from "react-scroll";
 
-
 const Example = (props) => {
+  const { id } = props
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
 
    const logStyles ={
      height: 45,
-     width: 150
+     width: 150,
+    marginTop:40,
+    position: 'fixed'
    }
 
  const navStyles={
-   position: "fixed",
+  cursor: "pointer",
    fontSize: 16,
    fontWeight:8,
    padding:2, 
    marginTop:"3%",
    marginRight:"10%",
-   cursor: "pointer"
+   position:'fixed'
   }
+
   return (
-    <div>
+    <div  id={id}>
       <Row>
-        <Col xs="9">
+        <Col xs="8">
           <NavbarBrand href="/"><img style={logStyles} className="logo" src={require("../images/Official_Logo.png")} alt="pixels" /></NavbarBrand>
         </Col>
         <Col >
@@ -44,20 +48,22 @@ const Example = (props) => {
             <Collapse isOpen={isOpen} navbar>
               <Nav className="mr-auto" navbar style={navStyles}>
               
-                <NavItem >
-                  <NavLink style={{color:"orange"}}>
+              <NavItem>
+                  <NavLink>
                     <Link
                       activeClass="active"
                       to="section1"
                       spy={true}
                       smooth={true}
-                      offset={-70}
+                      offset={0}
                       duration={500}
                     >
                       Home
               </Link>
                   </NavLink>
                 </NavItem>
+
+            {/* This is the first navigation */}
 
                 <NavItem>
                   <NavLink>
@@ -66,13 +72,17 @@ const Example = (props) => {
                       to="section2"
                       spy={true}
                       smooth={true}
-                      offset={-70}
+                      offset={0}
                       duration={500}
+             
                     >
                       Services
               </Link>
                   </NavLink>
                 </NavItem>
+
+
+            {/* This is the first navigation */}
 
                 <NavItem>
                   <NavLink>
@@ -81,7 +91,7 @@ const Example = (props) => {
                       to="section3"
                       spy={true}
                       smooth={true}
-                      offset={-70}
+                      offset={0}
                       duration={500}
                     >
                     About
@@ -89,20 +99,22 @@ const Example = (props) => {
                   </NavLink>
                 </NavItem>
 
-                <NavItem>
-                  <NavLink >
+
+                 <NavItem>
+                  <NavLink>
                     <Link
                       activeClass="active"
                       to="section4"
                       spy={true}
                       smooth={true}
-                      offset={-70}
+                      offset={0}
                       duration={500}
                     >
-                      Clients
+                  Client
               </Link>
                   </NavLink>
                 </NavItem>
+
 
                 <NavItem>
                   <NavLink >
@@ -111,7 +123,7 @@ const Example = (props) => {
                       to="section5"
                       spy={true}
                       smooth={true}
-                      offset={-70}
+                      offset={0}
                       duration={500}
                     >
                       Contact

@@ -1,6 +1,7 @@
 import React from 'react';
-
+import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa'
 import "./footer.css";
+import { Link } from 'react-router-dom';
 const Footer = () => {
    return (
       <React.Fragment>
@@ -8,7 +9,7 @@ const Footer = () => {
             <div className="column1">
                <h6>About Us</h6>
                <p id="text1">A multi-faced company that offers an array</p>
-               <p id="text1">of digital,advertising and web developments services</p>
+               <p id="text1">of digital, advertising and web developments services</p>
             </div>
 
             <div className="column2">
@@ -32,17 +33,15 @@ const Footer = () => {
                <div className="email_input">
                   <input type="email" id="emailInput" name="Email" placeholder="Email address" />
                   <p id="button">SUBSCRIBE</p>
+
+               </div>
+               <div className='socialMedia'>
+                  <Link to=""><FaFacebookF id="fb" /></Link>
+                  <Link to=""><FaTwitter id="fb" /></Link>
+                  <Link to=""><FaInstagram id="fb" /></Link>
                </div>
             </div>
          </div>
-         <div className='socialMedia'>
-            <i class="fa fa-facebook" aria-hidden="true"> </i>
-            <img className="fb-img" src={require("../images/Socials-icons/facebook-logo.svg")} alt="fb" />
-            <img className="ig-img" src={require("../images/Socials-icons/instagram-logo.svg")} alt="fb" />
-            <img className="tt-img" src={require("../images/Socials-icons/twitter.svg")} alt="fb" />
-
-         </div>
-
          <div className="copy">
             <div className="line">
 

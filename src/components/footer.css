@@ -37,7 +37,7 @@ input#emailInput {
   background-color: white;
   border-radius: 12px 0px 0px 12px;
   width: 70%;
-  height:29px;
+  height: 29px;
   text-align: center;
   padding: 5.4px;
   font-family: cursive;
@@ -56,14 +56,18 @@ p#button {
 }
 
 .socialMedia {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: flex-end; */
   background-color: #242b30;
-  padding-bottom: 20px;
+  padding-bottom: 3.6px;
 }
 
-img.tt-img {
+.socialMedia #fb {
+  color: #959595;
+  margin: 10px;
+}
+/* img.tt-img {
   height: 33px;
   margin-right: 160px;
   color: #959595;
@@ -81,7 +85,7 @@ img.fb-img,
 img.ig-img {
   height: 30px;
   margin-right: 20px;
-}
+} */
 
 .copy {
   background: #242b30;

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import "./footer.css";
-const Footer =()=>{
+const Footer = () => {
    return (
       <React.Fragment>
          <div className="footer">

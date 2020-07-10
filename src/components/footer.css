@@ -35,7 +35,7 @@ input#emailInput {
   border-radius: 12px 0px 0px 12px;
   width: 70%;
   text-align: center;
-  padding: 5px;
+  padding: 5.4px;
   font-family: cursive;
   font-size: 12px;
 }
@@ -44,7 +44,7 @@ button#button {
   background: #004b87;
   border: #004b87;
   width: 30%;
-  padding: 3.9px;
+  padding: 3.6px;
   padding-top: 7px;
   color: white;
   font-size: 12px;
@@ -69,14 +69,14 @@ img.fb-img,
 img.ig-img {
   height: 20px;
   margin: 2px;
-    height: 30px;
-    margin-right: 250px;
-   
+  height: 30px;
+  margin-right: 250px;
 }
 
-img.fb-img,img.ig-img{
-    height: 30px;
-    margin-right:20px;
+img.fb-img,
+img.ig-img {
+  height: 30px;
+  margin-right: 20px;
 }
 
 .copy {
@@ -86,12 +86,14 @@ img.fb-img,img.ig-img{
 }
 .copy .line {
   display: block;
-  border: 0.1px solid #959595;
+  border: 0px;
+  border-bottom: 1px solid #959595;
   padding: 0;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
+
 .copy p {
   padding-top: 8px;
   color: rgb(156, 155, 155);

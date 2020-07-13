@@ -15,6 +15,33 @@
 }
 
 .explores{
-    background-color: lightgray;
-    height: 50vh;
+    /* background-color: lightgray; */
 }
+
+img#stategy {
+    height: 100px;
+    width: 100px;
+}
+
+.strategyPragraph p {
+    color: gray;
+    margin: 0px;
+    font-size: 12px;
+    
+}
+
+.firstRow {
+    display: flex;
+    justify-content: space-around;
+    margin:30px 0px;
+}
+.strategyTitle h2 {
+    font-size: 25px;
+    color: gray;
+}
+.rowOne {
+    text-align: center;
+}
+
+
+  

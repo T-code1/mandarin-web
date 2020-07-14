@@ -32,7 +32,7 @@ const Explore = () => {
 
           <div className="rowOne">
           <div className="startegyImage">
-					<img src={require('../images/explore/strategy.svg')} id="stategy"/>
+					<img src={require('../images/explore/computeradvetise.svg')} id="stategy"/>
 					</div>
           <div className="strategyText">
           <div className="strategyTitle">  
@@ -48,7 +48,7 @@ const Explore = () => {
 
           <div className="rowOne">
           <div className="startegyImage">
-					<img src={require('../images/explore/strategy.svg')} id="stategy"/>
+					<img src={require('../images/explore/qr-code.svg')} id="stategy"/>
 					</div>
           <div className="strategyText">
           <div className="strategyTitle">  
@@ -68,7 +68,7 @@ const Explore = () => {
         <div className="firstRow">
 					<div className="rowOne">
           <div className="startegyImage">
-					<img src={require('../images/explore/strategy.svg')} id="stategy"/>
+					<img src={require('../images/explore/world-wide-web.svg')} id="stategy"/>
 					</div>
           <div className="strategyText">
           <div className="strategyTitle">  
@@ -84,7 +84,7 @@ const Explore = () => {
 
           <div className="rowOne">
           <div className="startegyImage">
-					<img src={require('../images/explore/strategy.svg')} id="stategy"/>
+					<img src={require('../images/explore/seo.svg')} id="stategy"/>
 					</div>
           <div className="strategyText">
           <div className="strategyTitle">  
@@ -100,7 +100,7 @@ const Explore = () => {
 
           <div className="rowOne">
           <div className="startegyImage">
-					<img src={require('../images/explore/strategy.svg')} id="stategy"/>
+					<img src={require('../images/explore/seo.svg')} id="stategy"/>
 					</div>
           <div className="strategyText">
           <div className="strategyTitle">  

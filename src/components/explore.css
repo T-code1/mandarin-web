@@ -33,7 +33,7 @@ img#stategy {
 .firstRow {
     display: flex;
     justify-content: space-around;
-    margin:30px 0px;
+    margin:30px 0px 30px 0px;
 }
 .strategyTitle h2 {
     font-size: 25px;

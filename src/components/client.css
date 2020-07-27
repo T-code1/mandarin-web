@@ -1,15 +1,16 @@
 div#section4{
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
 }
 h1{
     color: grey
 }
 
 .client_link {
-    background-color: lightgrey;
+    background-color: rgb(240, 240, 240);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    height:100vh;
 }
 
 img.chickentStore-img,

@@ -5,7 +5,7 @@ const Client =(props)=>{
     const { id } = props
     return(
         <div ClassName="client" id={id}>
-            <h1>Clients</h1>
+ 
             
             <div className="client_link">
             <img className="chickentStore-img" src={require("../images/clients/Chickenstore.svg")} alt="clietn" />

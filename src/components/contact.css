@@ -1,5 +1,5 @@
 .contact {
-  height: 100vh;
+  height: auto;
   background-image: url("../images/04.png");
   background-size: cover;
 }
@@ -7,7 +7,7 @@
 #h-contact {
   color: #fff;
   padding: 4%;
-  font-size: 40px;
+  font-size: 6vh;
   font-family: "chaletBook-regular";
 }
 

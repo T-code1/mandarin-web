@@ -67,25 +67,7 @@ p#button {
   color: #959595;
   margin: 10px;
 }
-/* img.tt-img {
-  height: 33px;
-  margin-right: 160px;
-  color: #959595;
-}
 
-img.fb-img,
-img.ig-img {
-  height: 20px;
-  margin: 2px;
-  height: 30px;
-  margin-right: 250px;
-}
-
-img.fb-img,
-img.ig-img {
-  height: 30px;
-  margin-right: 20px;
-} */
 
 .copy {
   background: #242b30;
@@ -106,4 +88,21 @@ img.ig-img {
   padding-top: 8px;
   color: rgb(156, 155, 155);
   font-size: 12px;
+}
+
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+ .column1 h6 {
+    font-size: 20px;
+    padding-bottom: 3px;
+}
+
+#text1 {
+
+  font-size: 7px;
+}
+.column4,.column2 {
+  display: none;
+}
 }

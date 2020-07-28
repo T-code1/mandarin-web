@@ -20,10 +20,10 @@ const Navigations = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
    const logStyles ={
-     height: 40,
-     width: 140,
-    marginTop:40,
-    marginLeft:100
+    //  height: 40,
+    //  width: 140,
+    // marginTop:40,
+    // marginLeft:100
     // position: 'fixed'
    }
 

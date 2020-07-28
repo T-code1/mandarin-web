@@ -1,11 +1,153 @@
-import React from 'react';
+import React,{useState} from 'react';
 import Navigation from './navigation';
 import Footer from './footer';
 import './explore.css';
-const Explore = () => {
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  Row,
+  Col
+} from 'reactstrap';
+import { Link } from "react-scroll";
+
+const logStyles ={
+  height: 40,
+  width: 140,
+ marginTop:40,
+//  position: 'fixed'
+}
+
+const navStyles={
+cursor: "pointer",
+fontSize: 14,
+fontWeight:8,
+padding:2, 
+marginTop:"3%",
+marginRight:"10%",
+// position:'fixed'
+}
+
+const Explore = (props) => {
+  const { id } = props
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => setIsOpen(!isOpen);
 	return (
 		<div>
-			<Navigation />
+    <div  id={id}>
+      <Row>
+        <Col xs="8">
+          <NavbarBrand href="/"><img style={logStyles} className="logo" src={require("../images/Official_Logo.png")} alt="pixels" /></NavbarBrand>
+        </Col>
+        <Col >
+          <Navbar light  expand="md" >
+            <NavbarToggler onClick={toggle} />
+            <Collapse isOpen={isOpen} navbar>
+              <Nav className="mr-auto" navbar style={navStyles}>
+              
+              <NavItem>
+                  <NavLink>
+                    <Link
+                      activeClass="active"
+                      to="section1"
+                      spy={true}
+                      smooth={true}
+                      offset={0}
+                      duration={500}
+                    >
+                      Home
+              </Link>
+                  </NavLink>
+                </NavItem>
+
+            {/* This is the first navigation */}
+
+                <NavItem>
+                  <NavLink>
+                    <Link
+                      activeClass="active"
+                      to="section2"
+                      spy={true}
+                      smooth={true}
+                      offset={0}
+                      duration={500}
+             
+                    >
+                      Services
+              </Link>
+                  </NavLink>
+                </NavItem>
+
+
+            {/* This is the first navigation */}
+
+                <NavItem>
+                  <NavLink>
+                    <Link
+                      activeClass="active"
+                      to="section3"
+                      spy={true}
+                      smooth={true}
+                      offset={0}
+                      duration={500}
+                    >
+                    About
+              </Link>
+                  </NavLink>
+                </NavItem>
+
+
+                 <NavItem>
+                  <NavLink>
+                    <Link
+                      activeClass="active"
+                      to="section4"
+                      spy={true}
+                      smooth={true}
+                      offset={0}
+                      duration={500}
+                    >
+                  Client
+              </Link>
+                  </NavLink>
+                </NavItem>
+
+
+                <NavItem>
+                  <NavLink >
+                    <Link
+                      activeClass="active"
+                      to="section5"
+                      spy={true}
+                      smooth={true}
+                      offset={0}
+                      duration={500}
+                    >
+                      Contact
+              </Link>
+                  </NavLink>
+                </NavItem>
+
+              </Nav>
+            </Collapse>
+          </Navbar>
+        </Col>
+      </Row>
+    </div>
+  
+
+
+		<div>
+
+    </div>
+
+
+
 			<div className="texts">
 				<p className="toServe">HERE TO SERVE</p>
 				<p className="text">Our native eye to detail continously pushes</p>

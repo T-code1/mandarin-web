@@ -19,6 +19,8 @@ const About = props => {
 
           <div className="col-sm-6 title">
 
+      
+
             <p id="heading" data-aos="fade-down">WHO WE ARE</p>
 
             <div data-aos="fade-up" className="paragraph">

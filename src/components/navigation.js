@@ -13,22 +13,23 @@ import {
 } from 'reactstrap';
 import { Link } from "react-scroll";
 
-const Example = (props) => {
+const Navigations = (props) => {
   const { id } = props
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
 
    const logStyles ={
-     height: 45,
-     width: 150,
-    marginTop:40,
-    position: 'fixed'
+    //  height: 40,
+    //  width: 140,
+    // marginTop:40,
+    // marginLeft:100
+    // position: 'fixed'
    }
 
  const navStyles={
   cursor: "pointer",
-   fontSize: 16,
+   fontSize: 14,
    fontWeight:8,
    padding:2, 
    marginTop:"3%",
@@ -140,4 +141,4 @@ const Example = (props) => {
   );
 }
 
-export default Example;
+export default Navigations;

@@ -30,6 +30,7 @@ p {
   color: #ffff;
   font-size: small;
   font-family: "chaletBook-regular";
+
 }
 
 #pexplore {
@@ -44,4 +45,14 @@ p {
 
 .content {
   padding-top: 8%;
+}
+
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  #pexplore {
+    font-size: large;
+    font-family: "chaletBook-regular";
+    
+  }
 }

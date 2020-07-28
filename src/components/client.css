@@ -1,15 +1,16 @@
 div#section4{
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
 }
 h1{
     color: grey
 }
 
 .client_link {
-    background-color: lightgrey;
+    background-color: rgb(240, 240, 240);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    height:100vh;
 }
 
 img.chickentStore-img,
@@ -25,3 +26,24 @@ img.wivunika-img{
     /* width: 32%; */
     margin:50px
 } 
+
+
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+    img.chickentStore-img,
+img.forex-img,
+img.gemura-img,
+img.huzamart-img,
+img.Isange-img,
+img.Kwetu-img,
+img.osisolution-img,
+img.solid-img,
+img.wivunika-img{
+  display: none;
+} 
+
+.client_link {
+    height:1vh;
+}
+  }

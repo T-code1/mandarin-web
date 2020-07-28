@@ -11,6 +11,7 @@ const Home = props => {
     Aos.init({duration:2000})
   },[])
 
+
   return(
     <div className="home" id={id}>
     <div className="home_text" data-aos="fade-right" >

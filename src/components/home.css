@@ -2,25 +2,62 @@
 	background-color: white;
 	font-weight: bold;
 	text-align: center;
+	line-height: 90px;
 	/* height: 70vh; */
 }
 p span {
 	font-size: 100px;
 	font-weight: bold;
 	color: orange;
+	margin-bottom: 0px;
+	padding-bottom: 1px;
 }
 
 .home_text {
-	margin: 50px;
+	margin: 110px 20px 199px 170px;
+	text-align: left;
 }
-.home p {
+.home p,
+span {
 	font-size: 100px;
 	color: darkgray;
+	font-style: bold;
+	margin-bottom: 0px;
+	padding-bottom: 1px;
 }
 
 .logo {
-	margin-left: 30px;
-	margin-top: 30px;
-	width: 80px;
-	height: 40px;
+	margin-left: 80px;
+	margin-top: 32px;
+	width: 120px;
+	height: 25px;
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+	.home_text {
+		text-align: center;
+	}
+	.home_text p span {
+		font-size: 33px;
+	}
+	.home_text p {
+		font-size: 33px;
+	}
+	.logo {
+		margin-left: 2px;
+		margin-top: 20px;
+		width: 150px;
+		height: 40px;
+	}
+	.home {
+		line-height: 45px;
+	}
+	p{
+		text-align: center
+	}
+	.home_text {
+		margin: 100px 10px;
+		text-align: left;
+	}
 }

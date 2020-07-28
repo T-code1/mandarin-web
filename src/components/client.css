@@ -26,3 +26,24 @@ img.wivunika-img{
     /* width: 32%; */
     margin:50px
 } 
+
+
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+    img.chickentStore-img,
+img.forex-img,
+img.gemura-img,
+img.huzamart-img,
+img.Isange-img,
+img.Kwetu-img,
+img.osisolution-img,
+img.solid-img,
+img.wivunika-img{
+  display: none;
+} 
+
+.client_link {
+    height:1vh;
+}
+  }

@@ -21,3 +21,19 @@ span {
   font-size: small;
   font-family: "chaletBook-regular";
 }
+
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  .paragraph p {
+    color:white;
+  }
+
+  .col-sm-6.title {
+    background-color: black;
+    padding-bottom: 52%
+}
+span {
+  font-size: large
+}
+}

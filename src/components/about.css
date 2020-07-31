@@ -1,39 +1,52 @@
 .about {
-  height: 115vh;
-  background-image: url("../images/03.png");
-  background-size: cover;
+	height: 115vh;
+	background-image: url("../images/03.png");
+	background-size: cover;
 }
 
 #heading {
-  color: #004b87;
-  font-family: "chaletBook-regular";
-  font-size: 40px;
+	color: #004b87;
+	font-family: "chaletBook-regular";
+	font-size: 40px;
 }
 span {
-  font-size: small;
+	font-size: small;
 }
 .paragraph p {
-  color: #636363;
-  font-size: small;
+	color: #636363;
+	font-size: small;
 }
 .link a {
-  color: #004b87;
-  font-size: small;
-  font-family: "chaletBook-regular";
+	color: #004b87;
+	font-size: small;
+	font-family: "chaletBook-regular";
 }
-
 
 /* For Smartphones */
 @media all and (max-width: 670px) {
-  .paragraph p {
-    color:white;
-  }
+	.paragraph p {
+		color: #636363;
+	}
 
-  .col-sm-6.title {
-    background-color: black;
-    padding-bottom: 52%
+	.col-sm-6.title {
+		background-color: rgb(255, 255, 255);
+		padding-bottom: 52%;
+	}
+	span {
+		font-size: large;
+	}
 }
-span {
-  font-size: large
-}
+
+/* For Tablets */
+@media (min-width: 670px) and (max-width: 1000px) {
+	.paragraph p {
+		color: #636363;
+	}
+
+	.col-sm-6.title {
+		background-color: rgb(255, 255, 255);
+		padding-bottom: 550px;
+    margin-right: 2px;
+		width: 100%;
+	}
 }

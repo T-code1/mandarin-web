@@ -6,7 +6,7 @@ h1{
 }
 
 .client_link {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(250, 247, 247);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -44,6 +44,24 @@ img.wivunika-img{
 } 
 
 .client_link {
-    height:1vh;
+    height:0vh;
 }
   }
+
+
+/* For Tablets */
+@media (min-width: 670px) and (max-width: 1000px) {
+    img.chickentStore-img,
+    img.forex-img,
+    img.gemura-img,
+    img.huzamart-img,
+    img.Isange-img,
+    img.Kwetu-img,
+    img.osisolution-img,
+    img.solid-img,
+    img.wivunika-img{
+        /* height: 40vh; */
+        /* width: 32%; */
+        margin:25px
+    } 
+}

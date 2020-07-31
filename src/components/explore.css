@@ -1,45 +1,53 @@
-.toServe{
-    color:rgb(73, 73, 150);
-    font-size: 30px;
+.toServe {
+	color: rgb(73, 73, 150);
+	font-size: 30px;
 }
-.texts{
-   margin-left: 20%;
-    margin-top: 100px;
-    margin-bottom: 7.4%;
-}
-
-.text{
-    color:gray;
-   margin-bottom:0;
-   font-size: 15px;
+.texts {
+	margin-left: 20%;
+	margin-top: 100px;
+	margin-bottom: 7.4%;
 }
 
-
+.text {
+	color: gray;
+	margin-bottom: 0;
+	font-size: 15px;
+}
 
 img#stategy {
-    height: 100px;
-    width: 100px;
+	height: 100px;
+	width: 100px;
 }
 
 .strategyPragraph p {
-    color: gray;
-    margin: 0px;
-    font-size: 12px;
-    
+	color: gray;
+	margin: 0px;
+	font-size: 12px;
 }
 
 .firstRow {
-    display: flex;
-    justify-content: space-around;
-    margin:30px 0px 30px 0px;
+	display: flex;
+	justify-content: space-around;
+	margin: 30px 0px 30px 0px;
 }
 .strategyTitle h2 {
-    font-size: 25px;
-    color: gray;
+	font-size: 25px;
+	color: gray;
 }
 .rowOne {
-    text-align: center;
+	text-align: center;
 }
 
+/* For Smartphones */
+@media all and (max-width: 670px) {
+	.texts {
+		margin: 15% 10%;
+    }
+    .firstRow {
+        display: block;
+    }
+}
 
-  
+/* For Tablets */
+@media (min-width: 670px) and (max-width: 1000px) {
+}

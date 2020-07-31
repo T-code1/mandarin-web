@@ -1,5 +1,4 @@
 import React,{useState} from 'react';
-import Navigation from './navigation';
 import Footer from './footer';
 import './explore.css';
 import {
@@ -157,7 +156,7 @@ const Explore = (props) => {
 				<div className="firstRow">
 					<div className="rowOne">
           <div className="startegyImage">
-					<img src={require('../images/explore/strategy.svg')} id="stategy"/>
+					<img src={require('../images/explore/strategy.svg')} alt="img" id="stategy"/>
 					</div>
           <div className="strategyText">
           <div className="strategyTitle">  
@@ -174,7 +173,7 @@ const Explore = (props) => {
 
           <div className="rowOne">
           <div className="startegyImage">
-					<img src={require('../images/explore/computeradvetise.svg')} id="stategy"/>
+					<img src={require('../images/explore/computeradvetise.svg')} alt="img" id="stategy"/>
 					</div>
           <div className="strategyText">
           <div className="strategyTitle">  
@@ -190,7 +189,7 @@ const Explore = (props) => {
 
           <div className="rowOne">
           <div className="startegyImage">
-					<img src={require('../images/explore/qr-code.svg')} id="stategy"/>
+					<img src={require('../images/explore/qr-code.svg')} alt="img" id="stategy"/>
 					</div>
           <div className="strategyText">
           <div className="strategyTitle">  
@@ -210,7 +209,7 @@ const Explore = (props) => {
         <div className="firstRow">
 					<div className="rowOne">
           <div className="startegyImage">
-					<img src={require('../images/explore/world-wide-web.svg')} id="stategy"/>
+					<img src={require('../images/explore/world-wide-web.svg')} alt="img" id="stategy"/>
 					</div>
           <div className="strategyText">
           <div className="strategyTitle">  
@@ -226,7 +225,7 @@ const Explore = (props) => {
 
           <div className="rowOne">
           <div className="startegyImage">
-					<img src={require('../images/explore/seo.svg')} id="stategy"/>
+					<img src={require('../images/explore/seo.svg')} alt="img" id="stategy"/>
 					</div>
           <div className="strategyText">
           <div className="strategyTitle">  
@@ -242,7 +241,7 @@ const Explore = (props) => {
 
           <div className="rowOne">
           <div className="startegyImage">
-					<img src={require('../images/explore/seo.svg')} id="stategy"/>
+					<img src={require('../images/explore/seo.svg')} alt="img" id="stategy"/>
 					</div>
           <div className="strategyText">
           <div className="strategyTitle">  

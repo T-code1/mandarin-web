@@ -36,3 +36,17 @@ span {
 		font-size: large;
 	}
 }
+
+/* For Tablets */
+@media (min-width: 670px) and (max-width: 1000px) {
+	.paragraph p {
+		color: #636363;
+	}
+
+	.col-sm-6.title {
+		background-color: rgb(255, 255, 255);
+		padding-bottom: 550px;
+    margin-right: 2px;
+		width: 100%;
+	}
+}

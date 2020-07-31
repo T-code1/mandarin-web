@@ -53,11 +53,21 @@ span {
 	.home {
 		line-height: 45px;
 	}
-	p{
-		text-align: center
+	p {
+		text-align: center;
 	}
 	.home_text {
 		margin: 100px 10px;
 		text-align: left;
+	}
+}
+
+/* For Tablets */
+@media (min-width: 670px) and (max-width: 1000px) {
+	.home_text p span {
+		font-size: 60px;
+	}
+	.home_text p {
+		font-size: 60px;
 	}
 }

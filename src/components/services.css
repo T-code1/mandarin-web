@@ -30,13 +30,15 @@ p {
   color: #ffff;
   font-size: small;
   font-family: "chaletBook-regular";
-
 }
 
 #pexplore {
   color: #f89c1e;
   font-size: small;
   font-family: "chaletBook-regular";
+}
+#pexplore span {
+  color: #f89c1e;
 }
 
 .title {
@@ -47,17 +49,14 @@ p {
   padding-top: 8%;
 }
 
-
 /* For Smartphones */
 @media all and (max-width: 670px) {
   #pexplore {
     font-size: large;
     font-family: "chaletBook-regular";
-    
   }
 }
 
 /* For Tablets */
 @media (min-width: 670px) and (max-width: 1000px) {
-
 }

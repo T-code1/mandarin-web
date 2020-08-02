@@ -106,3 +106,10 @@ p#button {
   display: none;
 }
 }
+
+/* For Tablets */
+@media (min-width: 670px) and (max-width: 1000px) {
+.column4{
+  display: none;
+}
+}

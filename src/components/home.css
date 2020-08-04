@@ -2,7 +2,7 @@
 	background-color: white;
 	font-weight: bold;
 	text-align: center;
-	line-height: 90px;
+	line-height: 100px;
 	/* height: 70vh; */
 }
 p span {
@@ -10,7 +10,7 @@ p span {
 	font-weight: bold;
 	color: orange;
 	margin-bottom: 0px;
-	padding-bottom: 1px;
+	padding-bottom: 5px;
 }
 
 .home_text {
@@ -19,11 +19,11 @@ p span {
 }
 .home p,
 span {
-	font-size: 100px;
+	font-size: 108px;
 	color: darkgray;
 	font-style: bold;
 	margin-bottom: 0px;
-	padding-bottom: 1px;
+	padding-bottom: 5px;
 }
 
 .logo {

@@ -1,73 +1,80 @@
+@font-face {
+  font-family: "intro-bold";
+  src: url("../fonts/Intro\ Bold\ Regular.otf");
+}
 .home {
-	background-color: white;
-	font-weight: bold;
-	text-align: center;
-	line-height: 100px;
-	/* height: 70vh; */
+  background-color: white;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+  /* height: 70vh; */
 }
 p span {
-	font-size: 100px;
-	font-weight: bold;
-	color: orange;
-	margin-bottom: 0px;
-	padding-bottom: 5px;
+  font-size: 100px;
+  font-weight: bold;
+  color: #f89c1e;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+  font-family: "intro-bold";
 }
 
 .home_text {
-	margin: 110px 20px 199px 170px;
-	text-align: left;
+  margin: 180px 20px 199px 110px;
+  text-align: left;
 }
 .home p,
 span {
-	font-size: 108px;
-	color: darkgray;
-	font-style: bold;
-	margin-bottom: 0px;
-	padding-bottom: 5px;
+  font-size: 105px;
+  color: #959595;
+  font-style: bold;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  font-family: "intro-bold";
 }
 
 .logo {
-	margin-left: 80px;
-	margin-top: 32px;
-	width: 120px;
-	height: 25px;
+  margin-left: 80px;
+  margin-top: 20px;
+  width: 140px;
+  height: 39px;
+  position: fixed;
 }
 
 /* For Smartphones */
 @media all and (max-width: 670px) {
-	.home_text {
-		text-align: center;
-	}
-	.home_text p span {
-		font-size: 33px;
-	}
-	.home_text p {
-		font-size: 33px;
-	}
-	.logo {
-		margin-left: 2px;
-		margin-top: 20px;
-		width: 150px;
-		height: 40px;
-	}
-	.home {
-		line-height: 45px;
-	}
-	p {
-		text-align: center;
-	}
-	.home_text {
-		margin: 100px 10px;
-		text-align: left;
-	}
+  .home_text {
+    text-align: center;
+  }
+  .home_text p span {
+    font-size: 33px;
+  }
+  .home_text p {
+    font-size: 33px;
+  }
+  .logo {
+    margin-left: 2px;
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+  }
+  .home {
+    line-height: 45px;
+  }
+  p {
+    text-align: center;
+  }
+  .home_text {
+    margin: 100px 10px;
+    text-align: left;
+  }
 }
 
 /* For Tablets */
 @media (min-width: 670px) and (max-width: 1000px) {
-	.home_text p span {
-		font-size: 60px;
-	}
-	.home_text p {
-		font-size: 60px;
-	}
+  .home_text p span {
+    font-size: 60px;
+  }
+  .home_text p {
+    font-size: 60px;
+  }
 }

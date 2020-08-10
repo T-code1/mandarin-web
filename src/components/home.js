@@ -16,7 +16,7 @@ const Home = props => {
     <div className="home" id={id}>
       <div className="home_text" data-aos="fade-right" >
         <p><span>We</span> are here</p>
-        <p>to <span>Serve</span> you and </p>
+        <p>to <span>serve</span> you and </p>
         <p> bring <span>you</span>r ideas to life<span> .</span></p>
       </div>
     </div>

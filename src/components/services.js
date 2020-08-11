@@ -23,7 +23,7 @@ const Services = props => {
             of a good idea and modest expectations."<br />
             -Paul Rand
             </p>
-          <Link to="/explore" id="pexplore">Explore <span>></span></Link>
+          <Link to="/explore" id="pexplore">Explore > </Link>
         </div>
 
       </div>

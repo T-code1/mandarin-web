@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   background-color: #242b30;
-  padding-top: 25px;
+  padding-top: 20px;
   font-family: "chaletBook-regular";
 }
 h6 {
@@ -16,10 +16,14 @@ h6 {
   color: #959595;
   font-size: 12px;
 }
+
 p#text4 {
   color: #959595;
   font-size: 13px;
   margin: 2px;
+}
+.column2 p {
+  cursor: pointer;
 }
 .column1 {
   margin-left: 50px;
@@ -53,6 +57,7 @@ p#button {
   color: white;
   font-size: 12px;
   font-family: "chaletBook-bold";
+  cursor: pointer;
 }
 
 .socialMedia {
@@ -67,7 +72,6 @@ p#button {
   color: #959595;
   margin: 10px;
 }
-
 
 .copy {
   background: #242b30;
@@ -90,26 +94,25 @@ p#button {
   font-size: 12px;
 }
 
-
 /* For Smartphones */
 @media all and (max-width: 670px) {
- .column1 h6 {
+  .column1 h6 {
     font-size: 20px;
     padding-bottom: 3px;
-}
+  }
 
-#text1 {
-
-  font-size: 7px;
-}
-.column4,.column2 {
-  display: none;
-}
+  #text1 {
+    font-size: 7px;
+  }
+  .column4,
+  .column2 {
+    display: none;
+  }
 }
 
 /* For Tablets */
 @media (min-width: 670px) and (max-width: 1000px) {
-.column4{
-  display: none;
-}
+  .column4 {
+    display: none;
+  }
 }

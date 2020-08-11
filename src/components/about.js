@@ -19,7 +19,7 @@ const About = props => {
 
           <div className="col-sm-6 title">
 
-      
+
 
             <p id="heading" data-aos="fade-down">WHO WE ARE</p>
 
@@ -42,7 +42,7 @@ const About = props => {
             </div>
 
             <div data-aos="fade-up" className="link">
-              <Link to="/explore" id="link">Explore <span>></span></Link>
+              <Link to="/explore" id="link">Explore ></Link>
             </div>
 
           </div>

@@ -19,37 +19,37 @@ const Navigations = (props) => {
 
   const toggle = () => setIsOpen(!isOpen);
 
-   const logStyles ={
+  const logStyles = {
     //  height: 40,
     //  width: 140,
     // marginTop:40,
     // marginLeft:100
     // position: 'fixed'
-   }
+  }
 
- const navStyles={
-  cursor: "pointer",
-   fontSize: 14,
-   fontWeight:8,
-   padding:2, 
-   marginTop:"3%",
-   marginRight:"10%",
-   position:'fixed'
+  const navStyles = {
+    cursor: "pointer",
+    fontSize: 14,
+    fontWeight: 8,
+    padding: 2,
+    marginTop: "3%",
+    marginRight: "10%",
+    position: 'fixed'
   }
 
   return (
-    <div  id={id}>
+    <div id={id}>
       <Row>
         <Col xs="8">
           <NavbarBrand href="/"><img style={logStyles} className="logo" src={require("../images/Official_Logo.png")} alt="pixels" /></NavbarBrand>
         </Col>
-        <Col >
-          <Navbar light  expand="md" >
+        <Col>
+          <Navbar light expand="md" >
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
               <Nav className="mr-auto" navbar style={navStyles}>
-              
-              <NavItem>
+
+                <NavItem>
                   <NavLink>
                     <Link
                       activeClass="active"
@@ -59,12 +59,12 @@ const Navigations = (props) => {
                       offset={0}
                       duration={500}
                     >
-                      Home
+                      HOME
               </Link>
                   </NavLink>
                 </NavItem>
 
-            {/* This is the first navigation */}
+                {/* This is the first navigation */}
 
                 <NavItem>
                   <NavLink>
@@ -75,15 +75,15 @@ const Navigations = (props) => {
                       smooth={true}
                       offset={0}
                       duration={500}
-             
+
                     >
-                      Services
+                      SERVICES
               </Link>
                   </NavLink>
                 </NavItem>
 
 
-            {/* This is the first navigation */}
+                {/* This is the first navigation */}
 
                 <NavItem>
                   <NavLink>
@@ -95,27 +95,10 @@ const Navigations = (props) => {
                       offset={0}
                       duration={500}
                     >
-                    About
+                      WHO WE ARE
               </Link>
                   </NavLink>
                 </NavItem>
-
-
-                 <NavItem>
-                  <NavLink>
-                    <Link
-                      activeClass="active"
-                      to="section4"
-                      spy={true}
-                      smooth={true}
-                      offset={0}
-                      duration={500}
-                    >
-                  Client
-              </Link>
-                  </NavLink>
-                </NavItem>
-
 
                 <NavItem>
                   <NavLink >
@@ -127,7 +110,7 @@ const Navigations = (props) => {
                       offset={0}
                       duration={500}
                     >
-                      Contact
+                      CONTACT
               </Link>
                   </NavLink>
                 </NavItem>

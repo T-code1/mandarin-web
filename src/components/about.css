@@ -7,9 +7,10 @@
 #heading {
   color: #004b87;
   font-family: "chaletBook-regular";
-  font-size: 40px;
+  font-size: 35px;
 }
 span {
+  padding-top: 10px;
   font-size: small;
   color: #004b87;
 }

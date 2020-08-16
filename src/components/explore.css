@@ -1,11 +1,17 @@
-/* .explore-container {
-  background-image: url("../images/explore.png");
-  background-size: cover;
-} */
+
 .explores {
   background-color: #5555;
   color: #636363;
 }
+a.homeNav {
+  color: gray;
+}
+a.homeNav:hover {
+ text-decoration: none;
+  background-color: #f89c1e;
+  opacity: 0.5;
+  }
+ 
 .toServe {
   color: #004b87;
   font-size: 35px;
@@ -48,26 +54,8 @@ img#stategy {
   padding: 25px;
 }
 
-/* .strategyPragraph p {
-  color: #636363;
-  margin: 0px;
-  font-size: 12px;
-}
 
-.firstRow {
-  display: flex;
-  justify-content: space-around;
-  margin: 30px 0px 30px 0px;
-}
-.strategyTitle h2 {
-  font-size: 25px;
-  color: #636363;
-}
-.rowOne {
-  text-align: center;
-} */
 
-/* For Smartphones */
 @media all and (max-width: 670px) {
   .texts {
     margin: 15% 10%;

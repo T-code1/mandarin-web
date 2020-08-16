@@ -6,10 +6,7 @@ import { Link } from 'react-router-dom';
 // import { Link } from "react-scroll";
 
 const logStyles = {
-	height: 40,
-	width: 140,
-	marginTop: 40
-	//  position: 'fixed'
+	 position: 'fixed'
 };
 
 const navStyles = {
@@ -18,8 +15,8 @@ const navStyles = {
 	fontWeight: 8,
 	padding: 2,
 	marginTop: '3%',
-	marginRight: '10%'
-	// position:'fixed'
+	marginRight: '10%',
+	position:'fixed'
 };
 
 const Explore = (props) => {
@@ -31,7 +28,7 @@ const Explore = (props) => {
 		<div>
 			<div id={id}>
 				<Row>
-					<Col xs="8">
+					<Col xs="6">
 						<NavbarBrand href="/">
 							<img
 								style={logStyles}
@@ -48,31 +45,31 @@ const Explore = (props) => {
 								<Nav className="mr-auto" navbar style={navStyles}>
 									<NavItem>
 										<NavLink>
-											<Link to="/home">Home</Link>
+											<Link className="homeNav" to="/home">Home</Link>
 										</NavLink>
 									</NavItem>
 
 									<NavItem>
 										<NavLink>
-											<Link to="/services">Services</Link>
+											<Link className="homeNav" to="/services">Services</Link>
 										</NavLink>
 									</NavItem>
 
 									<NavItem>
 										<NavLink>
-											<Link to="/client">Client</Link>
+											<Link className="homeNav" to="/client">Client</Link>
 										</NavLink>
 									</NavItem>
 
 									<NavItem>
 										<NavLink>
-											<Link to="/about">About</Link>
+											<Link className="homeNav" to="/about">About</Link>
 										</NavLink>
 									</NavItem>
 
 									<NavItem>
 										<NavLink>
-											<Link to="/contact">Contact</Link>
+											<Link className="homeNav" to="/contact">Contact</Link>
 										</NavLink>
 									</NavItem>
 								</Nav>

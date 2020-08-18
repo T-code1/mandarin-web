@@ -3,7 +3,7 @@ import Footer from './footer';
 import './explore.css';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
-// import { Link } from "react-scroll";
+
 
 const logStyles = {
 	 position: 'fixed'

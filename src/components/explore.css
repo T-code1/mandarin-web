@@ -1,17 +1,15 @@
-
 .explores {
   background-color: #5555;
   color: #636363;
 }
 a.homeNav {
-  color: gray;
+  color: #959595;
 }
 a.homeNav:hover {
- text-decoration: none;
-  background-color: #f89c1e;
-  opacity: 0.5;
-  }
- 
+  text-decoration: none;
+  color: #f89c1e;
+}
+
 .toServe {
   color: #004b87;
   font-size: 35px;
@@ -53,8 +51,6 @@ img#stategy {
   justify-content: space-around;
   padding: 25px;
 }
-
-
 
 @media all and (max-width: 670px) {
   .texts {

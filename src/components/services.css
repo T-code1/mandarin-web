@@ -31,9 +31,6 @@ p {
   font-size: small;
   font-family: "chaletBook-regular";
 }
-#pexplore:hover{
-  background-color:darkblue;
-}
 
 #pexplore {
   color: #f89c1e;
@@ -43,8 +40,6 @@ p {
 #pexplore span {
   color: #f89c1e;
 }
-
-
 
 .title {
   padding: 10%;

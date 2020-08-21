@@ -5,35 +5,26 @@ import { Link } from 'react-scroll';
 
 const Navigations = (props) => {
 	const { id } = props;
-	const [ isOpen, setIsOpen ] = useState(false);
+	const [isOpen, setIsOpen] = useState(false);
 
 	const toggle = () => setIsOpen(!isOpen);
 
-	const navStyles = {
-		cursor: 'pointer',
-		fontSize: 14,
-		fontWeight: 8,
-		padding: 2,
-		marginTop: '3%',
-		marginRight: '10%',
-		position: 'fixed'
-	};
 
 	return (
 		<div id={id}>
-			<Row>
-				<Col xs="6">
+			<Col>
+				<Row>
 					<NavbarBrand href="/">
 						<img className="logo" src={require('../images/Official_Logo.png')} alt="pixels" />
 					</NavbarBrand>
-				</Col>
-				<Col>
+				</Row>
+				<Row>
 					<Navbar light expand="md">
 						<NavbarToggler onClick={toggle} />
 						<Collapse isOpen={isOpen} navbar>
-							<Nav className="mr-auto" navbar style={navStyles}>
+							<Nav className="mr-auto" navbar>
 								<NavItem>
-									<NavLink>
+									<NavLink className="homeNav">
 										<Link
 											activeClass="active"
 											to="section1"
@@ -98,8 +89,9 @@ const Navigations = (props) => {
 							</Nav>
 						</Collapse>
 					</Navbar>
-				</Col>
-			</Row>
+				</Row>
+
+			</Col>
 		</div>
 	);
 };

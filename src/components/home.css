@@ -17,10 +17,6 @@ p span {
   padding-bottom: 5px;
   font-family: "intro-bold";
 }
-a:hover {
-  background-color: #f89c1e;
-  opacity: 0.5;
-  }
 
 .home_text {
   margin: 180px 20px 199px 110px;
@@ -34,14 +30,6 @@ span {
   margin-bottom: 0px;
   padding-bottom: 10px;
   font-family: "intro-bold";
-}
-
-.logo {
-  margin-left: 80px;
-  margin-top: 20px;
-  width: 120px;
-  height: 39px;
-  position: fixed;
 }
 
 /* For Smartphones */

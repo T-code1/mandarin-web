@@ -24,8 +24,8 @@ const Services = (props) => {
 						-Paul Rand
 					</p>
 					<Link to="/explore" id="pexplore">
-						Explore>{' '}
-					</Link>   
+						Explore>
+					</Link>
 				</div>
 			</div>
 		</div>

@@ -6,6 +6,35 @@ a {
   font-family: "chaletBook-regular";
 }
 
-.linking a:hover {
+a.homeNav:visited {
+  color: #959595;
+}
+a.homeNav:hover {
+  text-decoration: none;
   color: #f89c1e;
+}
+
+.logo {
+  margin-left: 80px;
+  margin-top: 20px;
+  width: 120px;
+  height: 37px;
+  position: fixed;
+}
+.mr-auto {
+  cursor: pointer;
+  font-size: small;
+  margin-top: 2%;
+  margin-left: 72%;
+  position: fixed;
+  color: #959595;
+}
+@media (min-width: 670px) and (max-width: 1000px) {
+  .mr-auto {
+    cursor: pointer;
+    font-size: small;
+    margin-top: 2%;
+    margin-right: 20%;
+    position: fixed;
+  }
 }

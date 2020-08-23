@@ -1,71 +1,18 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Footer from './footer';
+import Navbar from './exploreNav/navbar'
 import './explore.css';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavLink, Row, Col } from 'reactstrap';
-import { Link } from 'react-router-dom';
 
 
 
 
 
-const Explore = (props) => {
-	const { id } = props;
-	const [isOpen, setIsOpen] = useState(false);
 
-	const toggle = () => setIsOpen(!isOpen);
+const Explore = ({id}) => {
 	return (
 		<React.Fragment>
-			<div>
-				<div id={id}>
-					<Col>
-						<Row>
-							<NavbarBrand href="/">
-								<img
-
-									className="logo"
-									src={require('../images/Official_Logo.png')}
-									alt="pixels"
-								/>
-							</NavbarBrand>
-						</Row>
-						<Row>
-							<Navbar light expand="md">
-								<NavbarToggler onClick={toggle} />
-								<Collapse isOpen={isOpen} navbar>
-									<Nav className="mr-auto" navbar>
-
-										<NavLink>
-											<Link className="homeNav" to="/home">HOME</Link>
-										</NavLink>
-
-
-
-										<NavLink>
-											<Link className="homeNav" to="/services">SERVICES</Link>
-										</NavLink>
-
-
-
-										<NavLink>
-											<Link className="homeNav" to="/about">WHO WE ARE</Link>
-										</NavLink>
-
-
-
-										<NavLink>
-											<Link className="homeNav" to="/contact">CONTACT</Link>
-										</NavLink>
-
-
-									</Nav>
-								</Collapse>
-							</Navbar>
-						</Row>
-					</Col>
-				</div>
-
-				<div />
-
+			<div id={id}>
+        <Navbar/>         
 				<div className="explore-container">
 					<div className="texts">
 						<p className="toServe">HERE TO SERVE</p>

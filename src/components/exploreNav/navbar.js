@@ -5,12 +5,15 @@ import Burger from './Burger'
 const Nav = styled.nav`
 	width: 100%;
 	height: 64px;
-	border-bottom: 2px solid #f1f1f1;
-	padding: 0 20px;
+	/* border-bottom: 2px solid #f1f1f1; */
+	padding: 2px 20px;
 	display: flex;
 	justify-content: space-between;
-	.logo {
+	.logo img{
 		padding: 15px 0;
+		width:120px;
+		height: 65px;
+
 	}
 
 	
@@ -19,9 +22,9 @@ const Nav = styled.nav`
 const Navbar = () => {
 	return (
 		<Nav>
-			<div className="logo">Nav Bar</div>
-            <Burger/>
-			
+			<div className="logo"><img src={require('../../images/Official_Logo.png')} alt="Mandarin" id="mandarin" /></div>
+			<Burger />
+
 		</Nav>
 	);
 };

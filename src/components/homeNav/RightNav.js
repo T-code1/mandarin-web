@@ -9,8 +9,18 @@ const Ul = styled.ul`
 	flex-flow: row nowrap;
 
 	li {
-		padding: 18px 10px;
+		padding: 25px 10px;
+		color: #959595;
+		font-size:12.5px;
+		cursor:pointer;
+		font-family:"chaletBook-regular"
 	}
+	a:hover{
+		color: #f89c1e;
+	}
+	a:active{
+			color: #f89c1e;
+		}
 
 	@media (max-width: 786px) {
 		flex-flow: column nowrap;
@@ -27,10 +37,11 @@ const Ul = styled.ul`
 		li {
 			color: #fff;
 		}
+		
 	}
 `;
 
-const RightNav = ({ open,id }) => {
+const RightNav = ({ open, id }) => {
 	return (
 		<Ul open={open} id={id}>
 			<li>
@@ -53,7 +64,7 @@ const RightNav = ({ open,id }) => {
 					CONTACT
 				</Link>
 			</li>
-			
+
 		</Ul>
 	);
 };

@@ -8,7 +8,11 @@ const Ul = styled.ul`
 	flex-flow: row nowrap;
 
 	li {
-		padding: 18px 10px;
+		padding: 23px 10px;
+		color: #959595;
+		font-size:12.5px;
+		cursor:pointer;
+		font-family:"chaletBook-regular"
 	}
 
 	@media (max-width: 786px) {

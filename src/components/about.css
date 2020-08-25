@@ -23,7 +23,9 @@ span {
   font-size: small;
   font-family: "chaletBook-regular";
 }
-
+a:hover {
+  text-decoration-line: none;
+}
 /* For Smartphones */
 @media all and (max-width: 670px) {
   .paragraph p {

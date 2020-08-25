@@ -17,7 +17,11 @@ const Ul = styled.ul`
 	}
 	a:hover{
 		color: #f89c1e;
+		text-decoration:none
 	}
+    a.active{
+			color: #f89c1e;
+		}
 
 	@media (max-width: 786px) {
 		flex-flow: column nowrap;

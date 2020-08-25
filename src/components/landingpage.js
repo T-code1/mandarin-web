@@ -11,9 +11,9 @@ import Contact from "./contact";
 const LandingPage = () => {
   return (
     <Fragment>
-    <NavBar/>
+      <NavBar />
       {/* <Navigation id="section1" /> */}
-      <Home />
+      <Home id="section1" />
       <Services id="section2" />
       <About id="section3" />
       <Client id="section4" />

@@ -10,7 +10,7 @@ const Ul = styled.ul`
 	li {
 		padding: 23px 10px;
 		color: #959595;
-		font-size:12.5px;
+		font-size:12px;
 		cursor:pointer;
 		font-family:"chaletBook-regular"
 	}

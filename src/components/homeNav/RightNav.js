@@ -11,14 +11,14 @@ const Ul = styled.ul`
 	li {
 		padding: 25px 10px;
 		color: #959595;
-		font-size:12.5px;
+		font-size:12px;
 		cursor:pointer;
 		font-family:"chaletBook-regular"
 	}
 	a:hover{
 		color: #f89c1e;
 	}
-	a:active{
+    ul li .active{
 			color: #f89c1e;
 		}
 

@@ -1,58 +1,72 @@
 .contact {
-  height: 95vh;
-  background-image: url("../images/04.png");
-  background-size: cover;
+	height: 95vh;
+	background-image: url("../images/04.png");
+	background-size: cover;
 }
 
 #h-contact {
-  color: #fff;
-  padding: 4%;
-  font-size: 6vh;
-  font-family: "chaletBook-regular";
+	color: #fff;
+	padding: 4%;
+	font-size: 6vh;
+	font-family: "chaletBook-regular";
 }
 
 .button {
-  border-radius: 25px 25px;
-  outline: none;
-  border: none;
-  padding: 12px 30px;
-  background-color: #f89c1e;
-  font-family: "chaletBook-bold";
-  color: #fff;
-  margin: 2.5em 0.5em;
-  cursor: pointer;
-  transition: 0.5s;
-  width: 40%;
+	border-radius: 25px 25px;
+	outline: none;
+	border: none;
+	padding: 12px 30px;
+	background-color: #f89c1e;
+	font-family: "chaletBook-bold";
+	color: #fff;
+	margin: 2.5em 0.5em;
+	cursor: pointer;
+	transition: 0.5s;
+	width: 40%;
 }
 .button:hover {
-  background-image: linear-gradient(#f89c1e, #f88800, #f88800);
+	background-image: linear-gradient(#f89c1e, #f88800, #f88800);
 }
 
 input[type="text"] {
-  border: none;
-  border-bottom: 0.3px solid #555555;
-  background: none;
-  color: #959595;
-  font-size: small;
-  width: 40%;
-  padding: 20px 0px 5px;
-  outline: none;
-  margin: 1em;
+	border: none;
+	border-bottom: 0.3px solid #555555;
+	background: none;
+	color: #959595;
+	font-size: small;
+	width: 40%;
+	padding: 20px 0px 5px;
+	outline: none;
+	margin: 1em;
 }
 
 input[type="email"] {
-  border: none;
-  border-bottom: 0.3px solid #555555;
-  background: none;
-  color: #959595;
-  font-size: small;
-  width: 40%;
-  padding: 20px 0px 5px;
-  outline: none;
-  margin: 1em;
+	border: none;
+	border-bottom: 0.3px solid #555555;
+	background: none;
+	color: #959595;
+	font-size: small;
+	width: 40%;
+	padding: 20px 0px 5px;
+	outline: none;
+	margin: 1em;
 }
 
 form {
-  margin-left: 2.5em;
-  font-family: "chaletBook-regular";
+	margin-left: 2.5em;
+	font-family: "chaletBook-regular";
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+	#h-contact {
+		font-size: 15px;
+	}
+}
+
+/* For Tablets */
+@media (min-width: 670px) and (max-width: 1000px) {
+	#h-contact {
+		font-size: 12px;
+	}
 }

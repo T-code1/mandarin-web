@@ -1,118 +1,119 @@
 .footer {
-  display: flex;
-  justify-content: space-between;
-  background-color: #242b30;
-  padding-top: 20px;
-  font-family: "chaletBook-regular";
+	display: flex;
+	justify-content: space-between;
+	background-color: #242b30;
+	padding-top: 20px;
+	font-family: "chaletBook-regular";
 }
 h6 {
-  padding-bottom: 8%;
-  color: lightgray;
-  font-family: "chaletBook-bold";
+	padding-bottom: 8%;
+	color: lightgray;
+	font-family: "chaletBook-bold";
 }
 
 #text1 {
-  margin-bottom: inherit;
-  color: #959595;
-  font-size: 12px;
+	margin-bottom: inherit;
+	color: #959595;
+	font-size: 12px;
 }
 
 p#text4 {
-  color: #959595;
-  font-size: 13px;
-  margin: 2px;
+	color: #959595;
+	font-size: 13px;
+	margin: 2px;
 }
 .column2 p {
-  cursor: pointer;
+	cursor: pointer;
 }
 .column1 {
-  margin-left: 50px;
+	margin-left: 50px;
 }
 .column4 {
-  width: 20%;
-  margin-right: 40px;
+	width: 20%;
+	margin-right: 40px;
 }
 .email_input {
-  display: flex;
+	display: flex;
 }
 
 input#emailInput {
-  margin: 0;
-  background-color: white;
-  border-radius: 12px 0px 0px 12px;
-  width: 70%;
-  height: 29px;
-  text-align: center;
-  padding: 5.4px;
-  font-family: cursive;
-  font-size: 12px;
+	margin: 0;
+	background-color: white;
+	border-radius: 12px 0px 0px 12px;
+	width: 70%;
+	height: 29px;
+	text-align: center;
+	padding: 5.4px;
+	font-family: cursive;
+	font-size: 12px;
 }
-p#button {
-  border-radius: 0px 12px 12px 0px;
-  background-color: #004b87;
-  border: #004b87;
-  width: 30%;
-  padding: 3.6px;
-  padding-top: 7px;
-  color: white;
-  font-size: 12px;
-  font-family: "chaletBook-bold";
-  cursor: pointer;
+button#button {
+	border-radius: 0px 12px 12px 0px;
+	background-color: #004b87;
+	border: #004b87;
+	width: 30%;
+	padding: 3.6px;
+	padding-right: 4px;
+	padding-top: 7px;
+	color: white;
+	font-size: 12px;
+	font-family: "chaletBook-bold";
+	cursor: pointer;
 }
 
 .socialMedia {
-  /* display: flex;
+	/* display: flex;
   flex-direction: row;
   justify-content: flex-end; */
-  background-color: #242b30;
-  padding-bottom: 3.6px;
+	background-color: #242b30;
+	padding-bottom: 3.6px;
 }
 
 .socialMedia #fb {
-  color: #959595;
-  margin: 10px;
+	color: #959595;
+	margin: 10px;
 }
 
 .copy {
-  background: #242b30;
-  text-align: center;
-  padding-bottom: 0.2px;
+	background: #242b30;
+	text-align: center;
+	padding-bottom: 0.2px;
 }
 .copy .line {
-  display: block;
-  border: 0px;
-  border-bottom: 1px solid #959595;
-  padding: 0;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+	display: block;
+	border: 0px;
+	border-bottom: 1px solid #959595;
+	padding: 0;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .copy p {
-  padding-top: 8px;
-  color: rgb(156, 155, 155);
-  font-size: 12px;
+	padding-top: 8px;
+	color: rgb(156, 155, 155);
+	font-size: 12px;
 }
 
 /* For Smartphones */
 @media all and (max-width: 670px) {
-  .column1 h6 {
-    font-size: 20px;
-    padding-bottom: 3px;
-  }
+	.column1 h6 {
+		font-size: 20px;
+		padding-bottom: 3px;
+	}
 
-  #text1 {
-    font-size: 7px;
-  }
-  .column4,
-  .column2 {
-    display: none;
-  }
+	#text1 {
+		font-size: 7px;
+	}
+	.column4,
+	.column2 {
+		display: none;
+	}
 }
 
 /* For Tablets */
 @media (min-width: 670px) and (max-width: 1000px) {
-  .column4 {
-    display: none;
-  }
+	.column4 {
+		display: none;
+	}
 }
